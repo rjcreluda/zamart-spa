@@ -1,0 +1,156 @@
+{
+  "nonce": "202ff3f731",
+  "rest_url": "http://dianacarte.mada-digital.com/wp-json",
+  "orders": [
+    {
+      "id": 1,
+      "order_key": 3001,
+      "customer_id": 11,
+      "items": [
+        { "product_id": 78, "name": "yene", "price": 10, "quantity": 1 },
+        { "product_id": 96, "name": "ongle", "price": 5, "quantity": 3 },
+        { "product_id": 10, "name": "bougie", "price": 15, "quantity": 1 }
+      ],
+      "date_created": "2021-02-15",
+      "status": "ongoing",
+      "total": 40,
+      "billing_address1": "78 rue fontaine MYT",
+      "billing_first_name": "John Doe",
+      "artisan_id": 12
+    },
+    {
+      "id": 2,
+      "order_key": 3005,
+      "customer_id": 15,
+      "items": [
+        { "product_id": 78, "name": "yene", "price": 10, "quantity": 1 },
+        { "product_id": 96, "name": "ongle", "price": 5, "quantity": 3 },
+        { "product_id": 10, "name": "bougie", "price": 15, "quantity": 1 }
+      ],
+      "date_created": "2021-02-15",
+      "status": "ongoing",
+      "total": 40,
+      "billing_address1": "78 rue fontaine MYT",
+      "billing_first_name": "John Doe",
+      "artisan_id": 0
+    },
+    {
+      "id": 3,
+      "order_key": 3009,
+      "customer_id": 19,
+      "items": [
+        { "product_id": 78, "name": "yene", "price": 10, "quantity": 1 },
+        { "product_id": 96, "name": "ongle", "price": 5, "quantity": 3 },
+        { "product_id": 10, "name": "bougie", "price": 15, "quantity": 1 }
+      ],
+      "date_created": "2021-02-15",
+      "status": "ongoing",
+      "total": 40,
+      "billing_address1": "78 rue fontaine MYT",
+      "billing_first_name": "John Doe",
+      "artisan_id": 0
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "phone": "+33 456 78 98",
+      "email": "json@gmail.com",
+      "address": "27 rue amaba",
+      "orders": {
+        "id": 3,
+        "order_key": 3009,
+        "customer_id": 19,
+        "items": [
+          { "product_id": 78, "name": "yene", "price": 10, "quantity": 1 },
+          { "product_id": 96, "name": "ongle", "price": 5, "quantity": 3 },
+          { "product_id": 10, "name": "bougie", "price": 15, "quantity": 1 }
+        ],
+        "date_created": "2021-02-15",
+        "status": "ongoing",
+        "total": 40,
+        "billing_address1": "78 rue fontaine MYT",
+        "billing_first_name": "John Doe"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Alice Berk",
+      "phone": "+33 456 78 98",
+      "email": "json@gmail.com",
+      "address": "27 rue amaba",
+      "orders": {
+        "id": 3,
+        "order_key": 3009,
+        "customer_id": 19,
+        "items": [
+          { "product_id": 78, "name": "yene", "price": 10, "quantity": 1 },
+          { "product_id": 96, "name": "ongle", "price": 5, "quantity": 3 },
+          { "product_id": 10, "name": "bougie", "price": 15, "quantity": 1 }
+        ],
+        "date_created": "2021-02-15",
+        "status": "ongoing",
+        "total": 40,
+        "billing_address1": "78 rue fontaine MYT",
+        "billing_first_name": "John Doe"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": 45,
+      "name": "Hene",
+      "price": 20,
+      "thumbnail": "http://w.com/s.jpg",
+      "category": {"id": 1, "name": "Beauté" },
+      "description": "lorem ispum simit dolor amet",
+      "category_id": 111
+    },
+    {
+      "id": 49,
+      "name": "Ongle",
+      "price": 12,
+      "thumbnail": "http://w.com/s.jpg",
+      "category": {"id": 1, "name": "Beauté" },
+      "description": "lorem ispum simit dolor amet",
+      "category_id": null
+    },
+    {
+      "id": 16,
+      "name": "Bougie",
+      "price": 12,
+      "thumbnail": "http://w.com/s.jpg",
+      "category": {"id": 1, "name": "Beauté" },
+      "description": "lorem ispum simit dolor amet",
+      "category_id": null
+    },
+    {
+      "id": 89,
+      "name": "Ongle",
+      "price": 5,
+      "thumbnail": "http://w.com/s.jpg",
+      "category": {"id": 1, "name": "Beauté" },
+      "description": "lorem ispum simit dolor amet",
+      "category_id": null
+    }
+  ],
+  "artisans": [
+    {
+      "id": 1,
+      "name": "Za Art Service",
+      "phone": "+33 45 789 45",
+      "email": "john@gmail.com",
+      "address": "42 rue fonaint",
+      "prestations": [1, 2]
+    },
+    { "id": 12, "name": "John Wick", "phone": "+33 45 789 45", "email": "john@gmail.com", "address": "42 rue fonaint", "prestations": [] },
+    { "id": 19, "name": "John Mike", "phone": "+33 45 789 45", "email": "john@gmail.com", "address": "42 rue fonaint", "prestations": [] }
+  ],
+  "product_cats": [
+    {"id": 1, "name": "Beauté", "count": 5 },
+    {"id": 111, "name": "Coiffure", "count": 3 },
+    {"id": 10, "name": "Hene", "count": 3 },
+    {"id": 100, "name": "Bougie", "count": 9 }
+  ]
+}
